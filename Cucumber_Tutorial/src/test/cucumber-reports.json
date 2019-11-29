@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29415120000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "StepDefinition.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 583311100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "StepDefinition.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 466738400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Reset the credential",
+            "match": {
+              "location": "StepDefinition.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1964707900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the Browser",
+            "match": {
+              "location": "StepDefinition.CloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "file:test.feature",
+    "tags": []
+  }
+]
